@@ -1,0 +1,10 @@
+name: rmc_hub
+version: '1.0'
+main: ua.yourserver.rmc_hub.Rmc_hub
+api-version: '1.21'
+authors: [ Sline ]
+website: https://karasiq.space
+
+commands:
+  setspawn:
+    description: Set the spawn location

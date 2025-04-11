@@ -1,0 +1,11 @@
+#Права
+#core.setspawn - Право нвстановлення точки спавна.
+
+#Set Spawn
+spawn:
+  x: 4
+  y: 93
+  z: -3
+  yaw: 0
+  pitch: 0
+  world: world
