@@ -4,12 +4,12 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.entity.Player;
 import org.bukkit.event.player.PlayerJoinEvent;
-import ua.yourserver.rmc_hub.Rmc_hub;
+import ua.yourserver.rmc_hub.Main;
 
 public class PlayerJoinListener implements Listener {
-    private final Rmc_hub plugin;
+    private final Main plugin;
 
-    public PlayerJoinListener(Rmc_hub plugin) {
+    public PlayerJoinListener(Main plugin) {
         this.plugin = plugin;
     }
 

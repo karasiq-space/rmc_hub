@@ -4,12 +4,12 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import ua.yourserver.rmc_hub.Rmc_hub;
+import ua.yourserver.rmc_hub.Main;
 
 public class SpawnCommand implements CommandExecutor {
-    private final Rmc_hub plugin;
+    private final Main plugin;
 
-    public SpawnCommand(Rmc_hub plugin) {
+    public SpawnCommand(Main plugin) {
         this.plugin = plugin;
     }
 

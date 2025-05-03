@@ -1,6 +1,6 @@
 package ua.yourserver.rmc_hub.core.manager;
 
-import ua.yourserver.rmc_hub.Rmc_hub;
+import ua.yourserver.rmc_hub.Main;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
@@ -8,10 +8,10 @@ import org.bukkit.World;
 import org.bukkit.configuration.file.FileConfiguration;
 
 public class SpawnManager {
-    private final Rmc_hub plugin;
+    private final Main plugin;
     private Location spawnLocation;
 
-    public SpawnManager(Rmc_hub plugin) {
+    public SpawnManager(Main plugin) {
         this.plugin = plugin;
         loadSpawnLocation();
     }

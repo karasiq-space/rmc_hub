@@ -1,10 +1,18 @@
 name: rmc_hub
 version: '1.0'
-main: ua.yourserver.rmc_hub.Rmc_hub
+main: ua.yourserver.rmc_hub.Main
 api-version: '1.21'
-authors: [ Sline ]
+authors: [Sline]
 website: https://karasiq.space
 
 commands:
   setspawn:
     description: Set the spawn location
+  rickroll:
+    description: Plays Never Gonna Give You Up with note blocks
+    usage: /<command>
+
+permissions:
+  rmc_hub.duckparade:
+    description: Allows interaction with the duck parade
+    default: true

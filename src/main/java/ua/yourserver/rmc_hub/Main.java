@@ -6,8 +6,9 @@ import org.bukkit.plugin.java.JavaPlugin;
 import ua.yourserver.rmc_hub.core.command.CommandRegistry;
 import ua.yourserver.rmc_hub.core.manager.SpawnManager;
 import ua.yourserver.rmc_hub.listener.PlayerJoinListener;
+import ua.yourserver.rmc_hub.listener.absurdfeatures.DuckParadeListener;
 
-public final class Rmc_hub extends JavaPlugin implements Listener {
+public final class Main extends JavaPlugin implements Listener {
 
     private SpawnManager spawnManager;
 
@@ -36,5 +37,6 @@ public final class Rmc_hub extends JavaPlugin implements Listener {
     private void registerListeners() {
         PluginManager manager = this.getServer().getPluginManager();
         manager.registerEvents(new PlayerJoinListener(this), this);
+        manager.registerEvents(new DuckParadeListener(this), this); // Added new listener
     }
 }
